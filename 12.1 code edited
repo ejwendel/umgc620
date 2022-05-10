@@ -1,0 +1,38 @@
+#Here we load in the stopwords from the downloaded nltk stopwords list.
+lmtzr = WordNetLemmatizer()
+stop = stopwords.words('english')
+stop.append("•")
+stop.append("amazoncom")
+stop.append("news")
+stop.append("time")
+stop.append("say")
+stop.append("year")
+stop.append("new")
+stop.append("side")
+stop.append("people")
+stop.append("one")
+stop.append("day")
+stop.append("u")
+stop.append("thing")
+stop.append("several")
+stop.append("meanwhile")
+stop.append("would")
+stop.append("say")
+stop.append("hand")
+stop.append("go")
+stop.append("month")
+stop.append("many")
+stop.append("part")
+stop.append("need")
+#TODO: FILL IN THE FOLLOWING FUNCTIONS
+def sort_and_reverse(lst):
+    '''Given some list, we want to first sort it and then reverse it after. Here the order is important!
+    The code should be only one or two lines given the following two list functions:
+    https://www.w3schools.com/python/ref_list_sort.asp
+    https://www.programiz.com/python-programming/methods/list/reverse
+   
+    NOTE: These functions do not actually return another list, they instead modify the list being passed into our argument.
+    So we do not need to return anything for this function'''
+    
+    #SOLUTION GOES HERE
+    lst.sort(reverse=True)
